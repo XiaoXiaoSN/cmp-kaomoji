@@ -1,0 +1,27 @@
+name: check formant
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  format:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: JohnnyMorganz/stylua-action@v4
+        with:
+          args: --check .
+
+  codespell:
+    name: Codespell
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: codespell-project/codespell-problem-matcher@v1
+
+      - name: Codespell
+        uses: codespell-project/actions-codespell@master
