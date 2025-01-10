@@ -34,6 +34,7 @@ require'cmp'.setup {
     })
   }
 }
+```
 
 ## References
 
