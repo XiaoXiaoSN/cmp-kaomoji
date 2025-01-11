@@ -39,4 +39,3 @@ require'cmp'.setup {
 ## References
 
 Thanks [jsingason/kaokun](https://github.com/jsingason/kaokun)
-
