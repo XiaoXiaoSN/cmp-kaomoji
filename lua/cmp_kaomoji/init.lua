@@ -30,7 +30,7 @@ source.complete = function(self, params, callback)
 
   -- Lazy load kaomoji
   if not self.items then
-    self.items = require('cmp_kaomoji.kaomoji')()
+    self.items = require('cmp_kaomoji.kaomoji').setup()
   end
 
   callback(self.items)

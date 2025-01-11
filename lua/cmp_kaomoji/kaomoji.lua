@@ -1,6 +1,6 @@
 ---@see: https://microsoft.github.io/language-server-protocol/specifications/specification-current/
 ---@see: https://github.com/hrsh7th/nvim-cmp/blob/v0.0.2/lua/cmp/types/lsp.lua#L265-L285
-local kaomoji = {
+local kaomoji_list = {
   -- Action
   {
     word = ':attack_1:',
@@ -24,7 +24,7 @@ local kaomoji = {
   {
     word = ':cheer_2:',
     label = '⸜(*ˊᗜˋ*)⸝',
-    _tags = { 'cheerful', 'excited', 'happy' },
+    _tags = { 'happy', 'cheerful', 'excited' },
   },
   {
     word = ':confident_smile_1:',
@@ -67,9 +67,14 @@ local kaomoji = {
     _tags = { 'love' },
   },
   {
-    word = ':hugging_1:',
+    word = ':hug_1:',
     label = 'ヽ(￣ω￣(￣ω￣〃)ゝ',
     _tags = { 'together', 'bro' },
+  },
+  {
+    word = ':hug_2:',
+    label = 'ʕつ•ᴥ•ʔつ',
+    _tags = { 'bear', 'cuddle', 'comforting' },
   },
   {
     word = ':poke_3:',
@@ -89,6 +94,7 @@ local kaomoji = {
   {
     word = ':strong_1:',
     label = 'ᕦ(ò_ó)ᕤ',
+    _tags = { 'muscle' },
   },
   {
     word = ':shy_hide_1:',
@@ -96,14 +102,24 @@ local kaomoji = {
     _tags = { 'cry' },
   },
   {
+    word = ':shrug_1:',
+    label = '┐(￣∀￣)┌',
+    _tags = { 'carefree', 'easy' },
+  },
+  {
     word = ':table_flip_1:',
     label = '(╯‵□′)╯︵┻━┻',
-    _tags = { 'angry' },
+    _tags = { 'angry', 'rage' },
   },
   {
     word = ':table_flip_2:',
     label = '(╯°□°）╯︵ ┻━┻',
-    _tags = { 'angry' },
+    _tags = { 'angry', 'rage' },
+  },
+  {
+    word = ':table_flip_3:',
+    label = '┻━┻︵ \\(°□°)/ ︵ ┻━┻',
+    _tags = { 'angry', 'rage' },
   },
   {
     word = ':table_flip_put_back_1:',
@@ -113,11 +129,17 @@ local kaomoji = {
     word = ':table_flip_put_back_2:',
     label = '(ヘ･_･)ヘ┳━┳',
   },
+  {
+    word = ':thumbs_down_1:',
+    label = 'p(●｀□´●)q',
+    _tags = { 'angry', 'determined' },
+  },
 
   -- Animal: bear
   {
     word = ':waving_bear_1:',
     label = 'ヽ(￣(ｴ)￣)ﾉ',
+    _tags = { 'relax', 'nonbiri' },
   },
   {
     word = ':cute_bear_1:',
@@ -143,10 +165,12 @@ local kaomoji = {
   {
     word = ':cute_cat_1:',
     label = 'ฅ ^•ﻌ•^ ฅ',
+    _tags = { 'paws', 'neko' },
   },
   {
     word = ':cat_1:',
     label = '( ⓛ ω ⓛ *)',
+    _tags = { 'big-eyes', 'neko' },
   },
   {
     word = ':cat_2:',
@@ -196,10 +220,12 @@ local kaomoji = {
   {
     word = ':sheep_1:',
     label = 'Ꮚ ˊꈊˋᏊ',
+    _tags = { 'cute', 'fluffy' },
   },
   {
     word = ':sheep_2:',
     label = 'Ꮚ˘ ꈊ ˘Ꮚ',
+    _tags = { 'cute', 'fluffy' },
   },
 
   -- Emotion
@@ -214,36 +240,57 @@ local kaomoji = {
   {
     word = ':angry_3:',
     label = '(⊙x⊙;)',
+    _tags = { 'shocked', 'surprised' },
   },
   {
-    word = ':blush_1:',
+    word = ':angry_4:',
+    label = '٩(๑`^´๑)۶',
+    _tags = { 'determined' },
+  },
+  {
+    word = ':blushing_1:',
     label = '(❁´ω`❁) ',
-    _tags = { 'laugh' },
+    _tags = { 'smile' },
   },
   {
-    word = ':blush_2:',
+    word = ':blushing_2:',
     label = '(๑´ㅂ`๑)',
     _tags = { 'satisfied', 'smirk' },
   },
   {
-    word = ':blush_3:',
+    word = ':blushing_3:',
     label = '(❁´◡`❁)',
     _tags = { 'smile' },
   },
   {
-    word = ':blush_4:',
+    word = ':blushing_4:',
     label = '(灬ºωº灬)',
     _tags = { 'adorable', 'shy' },
   },
   {
-    word = ':blush_5:',
+    word = ':blushing_5:',
     label = '(//∇//)',
     _tags = { 'shy', 'embarrassed', 'tere' },
   },
   {
-    word = ':blush_6:',
+    word = ':blushing_6:',
     label = '(///ω///)',
     _tags = { 'shy', 'embarrassed', 'tere' },
+  },
+  {
+    word = ':crying_1:',
+    label = '(╥﹏╥)',
+    _tags = { 'sad', 'tearful' },
+  },
+  {
+    word = ':crying_2:',
+    label = '（ ＴДＴ）',
+    _tags = { 'sad', 'tearful' },
+  },
+  {
+    word = ':crying_3:',
+    label = '(٭°̧̧̧ω°̧̧̧٭)',
+    _tags = { 'sad', 'tearful' },
   },
   {
     word = ':confident_glow_1:',
@@ -269,6 +316,11 @@ local kaomoji = {
     word = ':encourage_3:',
     label = '(๑˃̵ᴗ˂̵)و',
     _tags = { 'fighting', 'determined' },
+  },
+  {
+    word = ':happy_1:',
+    label = '((ヽ(๑╹◡╹๑)ﾉ))♬',
+    _tags = { 'music' },
   },
   {
     word = ':judging_1:',
@@ -353,13 +405,47 @@ local kaomoji = {
   },
 }
 
-return function()
-  -- extend kaomoji
+local synonyms = {
+  happy = { 'joyful' },
+}
+
+local M = {}
+
+M._contains = function(table, element)
+  for _, value in ipairs(table) do
+    if value == element then
+      return true
+    end
+  end
+  return false
+end
+
+M._setup = function(kaomoji, synonyms)
   for _, entry in ipairs(kaomoji) do
+    -- Add synonyms to tags
+    for synonym_key, synonym_list in pairs(synonyms) do
+      if string.find(entry.word, synonym_key) or (entry._tags and M._contains(entry._tags, synonym_key)) then
+        for _, synonym in ipairs(synonym_list) do
+          table.insert(entry._tags, synonym)
+        end
+      end
+    end
+
     entry.insertText = entry.label
-    entry.filterText = entry.word .. (entry._tags and table.concat(entry._tags, ' ') or '')
+
+    local tags_text = ''
+    if entry._tags then
+      tags_text = ' ' .. table.concat(entry._tags, ' ')
+    end
+    entry.filterText = entry.word .. tags_text
     entry._tags = nil
   end
 
   return kaomoji
 end
+
+M.setup = function()
+  return M._setup(kaomoji_list, synonyms)
+end
+
+return M
