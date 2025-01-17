@@ -165,16 +165,21 @@ local kaomoji_list = {
   {
     word = ':cute_cat_1:',
     label = 'ฅ ^•ﻌ•^ ฅ',
-    _tags = { 'paws', 'neko' },
+    _tags = { 'paws' },
   },
   {
     word = ':cat_1:',
     label = '( ⓛ ω ⓛ *)',
-    _tags = { 'big-eyes', 'neko' },
+    _tags = { 'big-eyes' },
   },
   {
     word = ':cat_2:',
     label = 'ᓚᘏᗢ',
+  },
+  {
+    word = ':cat_3:',
+    label = '^˶･֊･˶^੭',
+    _tags = { 'greeting' },
   },
   -- Animal: dog
   {
@@ -396,17 +401,25 @@ local kaomoji_list = {
   {
     word = ':questioning_1:',
     label = '(´･ω･`)?',
-    _tags = { 'confused', '?' },
+    _tags = { 'confused' },
   },
   {
     word = ':questioning_2:',
     label = '(⊙_⊙)？',
-    _tags = { 'confused', '?' },
+    _tags = { 'confused' },
   },
 }
 
 local synonyms = {
   happy = { 'joyful' },
+  cat = { 'neko', 'meow' },
+  bear = { 'kuma' },
+  dog = { 'inu', 'wanwan' },
+  fish = { 'sakana' },
+  pig = { 'buta' },
+  rabbit = { 'usagi' },
+  sheep = { 'hitsuji' },
+  angry = { 'rage' },
 }
 
 local M = {}
@@ -426,6 +439,9 @@ M._setup = function(kaomoji, synonyms)
     for synonym_key, synonym_list in pairs(synonyms) do
       if string.find(entry.word, synonym_key) or (entry._tags and M._contains(entry._tags, synonym_key)) then
         for _, synonym in ipairs(synonym_list) do
+          if entry._tags == nil then
+            entry._tags = {}
+          end
           table.insert(entry._tags, synonym)
         end
       end

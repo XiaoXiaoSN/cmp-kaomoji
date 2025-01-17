@@ -40,6 +40,7 @@ describe('Kaomoji Function Tests', function()
     }
     local synonyms = {
       happy = { 'joyful' },
+      cat = { 'neko', 'meow' },
     }
     local expected = {
       {
