@@ -5,7 +5,7 @@ describe('Kaomoji Function Tests', function()
     local result = kaomoji._contains({ 'happy', 'joyful' }, 'happy')
     assert.is_true(result, 'Expected result to be true')
 
-    local result = kaomoji._contains({ 'happy', 'joyful' }, 'sad')
+    result = kaomoji._contains({ 'happy', 'joyful' }, 'sad')
     assert.is_false(result, 'Expected result to be false')
   end)
 

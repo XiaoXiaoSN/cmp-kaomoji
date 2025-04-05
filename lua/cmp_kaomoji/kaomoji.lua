@@ -77,7 +77,12 @@ local kaomoji_list = {
     _tags = { 'bear', 'cuddle', 'comforting' },
   },
   {
-    word = ':poke_3:',
+    word = ':poke_1:',
+    label = 'σ `∀´)σ',
+    _tags = { 'point' },
+  },
+  {
+    word = ':poke_2:',
     label = '(σ｀д′)σ',
     _tags = { 'fighting', 'angry', 'point' },
   },
@@ -133,6 +138,16 @@ local kaomoji_list = {
     word = ':thumbs_down_1:',
     label = 'p(●｀□´●)q',
     _tags = { 'angry', 'determined' },
+  },
+  {
+    word = ':tea_1:',
+    label = '旦、( ´ ꒳ ` )',
+    _tags = { 'easy' },
+  },
+  {
+    word = ':small_face_1:',
+    label = '⸚',
+    _tags = {},
   },
 
   -- Animal: bear
@@ -433,10 +448,10 @@ M._contains = function(table, element)
   return false
 end
 
-M._setup = function(kaomoji, synonyms)
+M._setup = function(kaomoji, synonyms_map)
   for _, entry in ipairs(kaomoji) do
     -- Add synonyms to tags
-    for synonym_key, synonym_list in pairs(synonyms) do
+    for synonym_key, synonym_list in pairs(synonyms_map) do
       if string.find(entry.word, synonym_key) or (entry._tags and M._contains(entry._tags, synonym_key)) then
         for _, synonym in ipairs(synonym_list) do
           if entry._tags == nil then

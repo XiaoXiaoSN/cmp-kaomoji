@@ -6,7 +6,9 @@ Inspired by [hrsh7th/cmp-emoji](https://github.com/hrsh7th/cmp-emoji)
 
 ## Installation
 
-Install by `lazy.nvim`
+### Using a plugin manager
+
+#### [lazy.nvim](https://github.com/folke/lazy.nvim)
 
 ```lua
 {
@@ -17,7 +19,18 @@ Install by `lazy.nvim`
 }
 ```
 
-Setup
+#### [packer.nvim](https://github.com/wbthomason/packer.nvim)
+
+```lua
+use {
+  'hrsh7th/nvim-cmp',
+  requires = {
+    'XiaoXiaoSN/cmp-kaomoji',
+  }
+}
+```
+
+## Setup
 
 ```lua
 require'cmp'.setup {
@@ -36,6 +49,20 @@ require'cmp'.setup {
 }
 ```
 
+## Development
+
+### Testing
+
+Tests are written using the [busted](https://olivinelabs.com/busted/) framework. To run the tests:
+
+```bash
+# Using luarocks
+luarocks test --local
+
+# Or run directly with busted
+busted
+```
+
 ## References
 
-Thanks [jsingason/kaokun](https://github.com/jsingason/kaokun)
+Thanks [jsingason/kaokun](https://github.com/jsingason/kaokun) for the kaomoji collection.

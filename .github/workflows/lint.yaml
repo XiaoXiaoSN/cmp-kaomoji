@@ -17,6 +17,9 @@ jobs:
           version: 2.0.2
           args: --check .
 
+      - name: Luacheck linter
+        uses: lunarmodules/luacheck@v1
+
   codespell:
     name: Codespell
     runs-on: ubuntu-latest
