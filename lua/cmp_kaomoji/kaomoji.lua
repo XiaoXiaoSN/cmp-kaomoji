@@ -448,10 +448,10 @@ M._contains = function(table, element)
   return false
 end
 
-M._setup = function(kaomoji, synonyms)
+M._setup = function(kaomoji, synonyms_map)
   for _, entry in ipairs(kaomoji) do
     -- Add synonyms to tags
-    for synonym_key, synonym_list in pairs(synonyms) do
+    for synonym_key, synonym_list in pairs(synonyms_map) do
       if string.find(entry.word, synonym_key) or (entry._tags and M._contains(entry._tags, synonym_key)) then
         for _, synonym in ipairs(synonym_list) do
           if entry._tags == nil then
