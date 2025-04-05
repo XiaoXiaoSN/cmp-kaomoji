@@ -77,7 +77,12 @@ local kaomoji_list = {
     _tags = { 'bear', 'cuddle', 'comforting' },
   },
   {
-    word = ':poke_3:',
+    word = ':poke_1:',
+    label = 'σ `∀´)σ',
+    _tags = { 'point' },
+  },
+  {
+    word = ':poke_2:',
     label = '(σ｀д′)σ',
     _tags = { 'fighting', 'angry', 'point' },
   },
@@ -133,6 +138,16 @@ local kaomoji_list = {
     word = ':thumbs_down_1:',
     label = 'p(●｀□´●)q',
     _tags = { 'angry', 'determined' },
+  },
+  {
+    word = ':tea_1:',
+    label = '旦、( ´ ꒳ ` )',
+    _tags = { 'easy' },
+  },
+  {
+    word = ':small_face_1:',
+    label = '⸚',
+    _tags = {},
   },
 
   -- Animal: bear
