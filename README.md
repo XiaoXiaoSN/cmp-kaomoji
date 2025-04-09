@@ -4,6 +4,8 @@
 
 Inspired by [hrsh7th/cmp-emoji](https://github.com/hrsh7th/cmp-emoji)
 
+![demo](demo.png)
+
 ## Installation
 
 ### Using a plugin manager
