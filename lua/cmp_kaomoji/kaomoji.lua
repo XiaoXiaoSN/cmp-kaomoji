@@ -17,12 +17,22 @@ local kaomoji_list = {
     _tags = { 'thanks', 'apology', 'respect' },
   },
   {
-    word = ':cheer_1:',
+    word = ':cheer_up_1:',
     label = '＼(・ω・)/',
     _tags = { 'happy', 'hello' },
   },
   {
-    word = ':cheer_2:',
+    word = ':cheer_up_2:',
+    label = '⸜(*ˊᗜˋ*)⸝',
+    _tags = { 'happy', 'cheerful', 'excited' },
+  },
+  {
+    word = ':cheer_up_3:',
+    label = '٩(ˊᗜˋ*)و',
+    _tags = { 'happy', 'excited', 'mafumafu', 'mikeneko', 'michan' },
+  },
+  {
+    word = ':cheer_up_4:',
     label = '⸜(*ˊᗜˋ*)⸝',
     _tags = { 'happy', 'cheerful', 'excited' },
   },
@@ -114,17 +124,17 @@ local kaomoji_list = {
   {
     word = ':table_flip_1:',
     label = '(╯‵□′)╯︵┻━┻',
-    _tags = { 'angry', 'rage' },
+    _tags = { 'angry' },
   },
   {
     word = ':table_flip_2:',
     label = '(╯°□°）╯︵ ┻━┻',
-    _tags = { 'angry', 'rage' },
+    _tags = { 'angry' },
   },
   {
     word = ':table_flip_3:',
     label = '┻━┻︵ \\(°□°)/ ︵ ┻━┻',
-    _tags = { 'angry', 'rage' },
+    _tags = { 'angry' },
   },
   {
     word = ':table_flip_put_back_1:',
@@ -148,6 +158,11 @@ local kaomoji_list = {
     word = ':small_face_1:',
     label = '⸚',
     _tags = {},
+  },
+  {
+    word = ':battle_ready_1:',
+    label = '୧(๑•̀ᗝ•́)૭',
+    _tags = { 'fight', 'determined', 'battle' },
   },
 
   -- Animal: bear
@@ -268,6 +283,21 @@ local kaomoji_list = {
     _tags = { 'determined' },
   },
   {
+    word = ':angry_5:',
+    label = '⁽⁽(੭ꐦ•̀Д•́)੭*⁾⁾',
+    _tags = { 'furious' },
+  },
+  {
+    word = ':angry_6:',
+    label = '(•̀⤙•́ )',
+    _tags = { 'pout', 'puffed' },
+  },
+  {
+    word = ':angry_7:',
+    label = 'ヽ(#`Д´)ﾉ',
+    _tags = { 'shout' },
+  },
+  {
     word = ':blushing_1:',
     label = '(❁´ω`❁) ',
     _tags = { 'smile' },
@@ -325,17 +355,22 @@ local kaomoji_list = {
   {
     word = ':encourage_1:',
     label = '(๑•̀ㅂ•́)و',
-    _tags = { 'fighting', 'determined' },
+    _tags = { 'cheering', 'fighting', 'determined' },
   },
   {
     word = ':encourage_2:',
     label = '(ง๑ •̀_•́)ง',
-    _tags = { 'fighting', 'determined' },
+    _tags = { 'cheering', 'fighting', 'determined' },
   },
   {
     word = ':encourage_3:',
     label = '(๑˃̵ᴗ˂̵)و',
-    _tags = { 'fighting', 'determined' },
+    _tags = { 'cheering', 'fighting', 'determined' },
+  },
+  {
+    word = ':encourage_4:',
+    label = '৻( •̀ ᗜ •́ ৻)',
+    _tags = { 'cheering', 'fighting' },
   },
   {
     word = ':happy_1:',
@@ -389,6 +424,11 @@ local kaomoji_list = {
     label = '(～﹃～)~zZ',
   },
   {
+    word = ':sleepy_5:',
+    label = '(っ- ‸ - ς)',
+    _tags = { 'drowsy', 'tired' },
+  },
+  {
     word = ':shocked_1:',
     label = 'Σ(っ °Д °;)っ',
     _tags = { 'surprised', 'panic' },
@@ -397,6 +437,11 @@ local kaomoji_list = {
     word = ':shocked_2:',
     label = '(＃°Д°)',
     _tags = { 'surprised', 'panic' },
+  },
+  {
+    word = ':shocked_3:',
+    label = '(˶ °ㅁ°)!!',
+    _tags = { 'surprised', 'amazed' },
   },
   {
     word = ':snicker_1:',
