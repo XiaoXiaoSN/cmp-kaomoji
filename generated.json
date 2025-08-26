@@ -1,0 +1,586 @@
+[
+  {
+    "category": "action",
+    "id": "attack_1",
+    "tags": ["magic", "attack"],
+    "text": "(＃￣□￣)o━∈・・━━━☆"
+  },
+  {
+    "category": "action",
+    "id": "backbend_1",
+    "tags": ["backbend"],
+    "text": "┏(_д_┏)┓))"
+  },
+  {
+    "category": "action",
+    "id": "bow_1",
+    "tags": ["thanks", "apology", "respect", "bow"],
+    "text": "m( _ _ )m"
+  },
+  {
+    "category": "action",
+    "id": "cheer_up_1",
+    "tags": ["happy", "hello", "cheer_up", "joyful"],
+    "text": "＼(・ω・)/"
+  },
+  {
+    "category": "action",
+    "id": "cheer_up_2",
+    "tags": ["happy", "cheerful", "excited", "cheer_up", "joyful"],
+    "text": "⸜(*ˊᗜˋ*)⸝"
+  },
+  {
+    "category": "action",
+    "id": "cheer_up_3",
+    "tags": [
+      "happy",
+      "excited",
+      "mafumafu",
+      "mikeneko",
+      "michan",
+      "cheer_up",
+      "joyful"
+    ],
+    "text": "٩(ˊᗜˋ*)و"
+  },
+  {
+    "category": "action",
+    "id": "cheer_up_4",
+    "tags": ["happy", "cheerful", "excited", "cheer_up", "joyful"],
+    "text": "⸜(*ˊᗜˋ*)⸝"
+  },
+  {
+    "category": "action",
+    "id": "confident_smile_1",
+    "tags": ["proud", "satisfied", "confident_smile"],
+    "text": "<(￣︶￣)>"
+  },
+  {
+    "category": "action",
+    "id": "greeting_1",
+    "tags": ["bye", "cheerful", "hello", "wave", "greeting"],
+    "text": "o(*'▽'*)/☆"
+  },
+  {
+    "category": "action",
+    "id": "greeting_2",
+    "tags": ["bye", "hello", "wave", "greeting"],
+    "text": "ヾ(￣▽￣)"
+  },
+  {
+    "category": "action",
+    "id": "greeting_3",
+    "tags": ["bye", "hello", "wave", "greeting"],
+    "text": "(*´・ω・)ノ"
+  },
+  {
+    "category": "action",
+    "id": "greeting_4",
+    "tags": ["bye", "hello", "wave", "greeting"],
+    "text": "( ･ω･)ﾉ"
+  },
+  {
+    "category": "action",
+    "id": "greeting_5",
+    "tags": ["bye", "wave", "greeting"],
+    "text": "(｡･∀･)ﾉﾞ"
+  },
+  {
+    "category": "action",
+    "id": "greeting_6",
+    "tags": ["hello", "wave", "excited", "greeting"],
+    "text": "ヾ(>▽<)ﾉ"
+  },
+  {
+    "category": "action",
+    "id": "heartful_1",
+    "tags": ["love", "heartful"],
+    "text": "(´▽`ʃ♡ƪ)"
+  },
+  {
+    "category": "action",
+    "id": "hug_1",
+    "tags": ["together", "bro", "hug"],
+    "text": "ヽ(￣ω￣(￣ω￣〃)ゝ"
+  },
+  {
+    "category": "action",
+    "id": "hug_2",
+    "tags": ["bear", "cuddle", "comforting", "hug", "kuma"],
+    "text": "ʕつ•ᴥ•ʔつ"
+  },
+  {
+    "category": "action",
+    "id": "poke_1",
+    "tags": ["point", "poke"],
+    "text": "σ `∀´)σ"
+  },
+  {
+    "category": "action",
+    "id": "poke_2",
+    "tags": ["fighting", "angry", "point", "poke", "rage"],
+    "text": "(σ｀д′)σ"
+  },
+  {
+    "category": "action",
+    "id": "sparkling_eyes_1",
+    "tags": ["shiny", "sparkling_eyes"],
+    "text": "✪ ω ✪"
+  },
+  {
+    "category": "action",
+    "id": "sparkling_eyes_2",
+    "tags": ["excited", "shiny", "sparkling_eyes"],
+    "text": "(✧ ω ✧)"
+  },
+  {
+    "category": "action",
+    "id": "strong_1",
+    "tags": ["muscle", "strong"],
+    "text": "ᕦ(ò_ó)ᕤ"
+  },
+  {
+    "category": "action",
+    "id": "shy_hide_1",
+    "tags": ["cry", "shy_hide"],
+    "text": "(/ω＼)"
+  },
+  {
+    "category": "action",
+    "id": "shrug_1",
+    "tags": ["carefree", "easy", "shrug"],
+    "text": "┐(￣∀￣)┌"
+  },
+  {
+    "category": "action",
+    "id": "table_flip_1",
+    "tags": ["angry", "table_flip", "rage"],
+    "text": "(╯‵□′)╯︵┻━┻"
+  },
+  {
+    "category": "action",
+    "id": "table_flip_2",
+    "tags": ["angry", "table_flip", "rage"],
+    "text": "(╯°□°）╯︵ ┻━┻"
+  },
+  {
+    "category": "action",
+    "id": "table_flip_3",
+    "tags": ["angry", "table_flip", "rage"],
+    "text": "┻━┻︵ \\(°□°)/ ︵ ┻━┻"
+  },
+  {
+    "category": "action",
+    "id": "table_flip_put_back_1",
+    "tags": ["table_flip_put_back"],
+    "text": "┳━┳ ノ( ゜-゜ノ)"
+  },
+  {
+    "category": "action",
+    "id": "table_flip_put_back_2",
+    "tags": ["table_flip_put_back"],
+    "text": "(ヘ･_･)ヘ┳━┳"
+  },
+  {
+    "category": "action",
+    "id": "thumbs_down_1",
+    "tags": ["angry", "determined", "thumbs_down", "rage"],
+    "text": "p(●｀□´●)q"
+  },
+  {
+    "category": "action",
+    "id": "tea_1",
+    "tags": ["easy", "tea"],
+    "text": "旦、( ´ ꒳ ` )"
+  },
+  {
+    "category": "action",
+    "id": "small_face_1",
+    "tags": ["small_face"],
+    "text": "⸚"
+  },
+  {
+    "category": "action",
+    "id": "battle_ready_1",
+    "tags": ["fight", "determined", "battle", "battle_ready"],
+    "text": "୧(๑•̀ᗝ•́)૭"
+  },
+  {
+    "category": "animal",
+    "id": "waving_bear_1",
+    "tags": ["relax", "nonbiri", "waving_bear", "kuma"],
+    "text": "ヽ(￣(ｴ)￣)ﾉ"
+  },
+  {
+    "category": "animal",
+    "id": "cute_bear_1",
+    "tags": ["cute_bear", "kuma"],
+    "text": "ʕ •ᴥ• ʔ"
+  },
+  {
+    "category": "animal",
+    "id": "cute_bear_2",
+    "tags": ["cute_bear", "kuma"],
+    "text": "ʕ·ᴥ·ʔ"
+  },
+  {
+    "category": "animal",
+    "id": "cute_bear_3",
+    "tags": ["cute_bear", "kuma"],
+    "text": "˙ᴥ˙"
+  },
+  {
+    "category": "animal",
+    "id": "determined_bear_1",
+    "tags": ["determined_bear", "kuma"],
+    "text": "ʕ •̀ ω •́ ʔ"
+  },
+  {
+    "category": "animal",
+    "id": "shy_bear_1",
+    "tags": ["shy_bear", "kuma"],
+    "text": "ʕ￫ᴥ￩ʔ"
+  },
+  {
+    "category": "animal",
+    "id": "cute_cat_1",
+    "tags": ["paws", "cute_cat", "neko", "meow"],
+    "text": "ฅ ^•ﻌ•^ ฅ"
+  },
+  {
+    "category": "animal",
+    "id": "cat_1",
+    "tags": ["big-eyes", "cat", "neko", "meow"],
+    "text": "( ⓛ ω ⓛ *)"
+  },
+  {
+    "category": "animal",
+    "id": "cat_2",
+    "tags": ["cat", "neko", "meow"],
+    "text": "ᓚᘏᗢ"
+  },
+  {
+    "category": "animal",
+    "id": "cat_3",
+    "tags": ["greeting", "cat", "neko", "meow"],
+    "text": "^˶･֊･˶^੭"
+  },
+  {
+    "category": "animal",
+    "id": "dog_1",
+    "tags": ["dog", "inu", "wanwan"],
+    "text": "V●ᴥ●V"
+  },
+  {
+    "category": "animal",
+    "id": "dog_2",
+    "tags": ["dog", "inu", "wanwan"],
+    "text": "U ´꓃ ` U"
+  },
+  {
+    "category": "animal",
+    "id": "fish_1",
+    "tags": ["fish", "sakana"],
+    "text": "<“)))><"
+  },
+  {
+    "category": "animal",
+    "id": "fish_2",
+    "tags": ["fish", "sakana"],
+    "text": "<。)#)))≦"
+  },
+  {
+    "category": "animal",
+    "id": "pig_1",
+    "tags": ["pig", "buta"],
+    "text": "^(*￣(oo)￣)^"
+  },
+  {
+    "category": "animal",
+    "id": "pig_2",
+    "tags": ["pig", "buta"],
+    "text": "( ¯(∞)¯ )"
+  },
+  {
+    "category": "animal",
+    "id": "rabbit_1",
+    "tags": ["rabbit", "usagi"],
+    "text": "／(˃ᆺ˂)＼"
+  },
+  {
+    "category": "animal",
+    "id": "rabbit_2",
+    "tags": ["rabbit", "usagi"],
+    "text": "／(=´x`=)＼"
+  },
+  {
+    "category": "animal",
+    "id": "rabbit_3",
+    "tags": ["rabbit", "usagi"],
+    "text": "U•ェ•*U"
+  },
+  {
+    "category": "animal",
+    "id": "sheep_1",
+    "tags": ["cute", "fluffy", "sheep", "hitsuji"],
+    "text": "Ꮚ ˊꈊˋᏊ"
+  },
+  {
+    "category": "animal",
+    "id": "sheep_2",
+    "tags": ["cute", "fluffy", "sheep", "hitsuji"],
+    "text": "Ꮚ˘ ꈊ ˘Ꮚ"
+  },
+  {
+    "category": "emotion",
+    "id": "angry_1",
+    "tags": ["angry", "rage"],
+    "text": "╰（‵□′）╯"
+  },
+  {
+    "category": "emotion",
+    "id": "angry_2",
+    "tags": ["angry", "rage"],
+    "text": "(╬▔皿▔)╯"
+  },
+  {
+    "category": "emotion",
+    "id": "angry_3",
+    "tags": ["shocked", "surprised", "angry", "rage"],
+    "text": "(⊙x⊙;)"
+  },
+  {
+    "category": "emotion",
+    "id": "angry_4",
+    "tags": ["determined", "angry", "rage"],
+    "text": "٩(๑`^´๑)۶"
+  },
+  {
+    "category": "emotion",
+    "id": "angry_5",
+    "tags": ["furious", "angry", "rage"],
+    "text": "⁽⁽(੭ꐦ•̀Д•́)੭*⁾⁾"
+  },
+  {
+    "category": "emotion",
+    "id": "angry_6",
+    "tags": ["pout", "puffed", "angry", "rage"],
+    "text": "(•̀⤙•́ )"
+  },
+  {
+    "category": "emotion",
+    "id": "angry_7",
+    "tags": ["shout", "angry", "rage"],
+    "text": "ヽ(#`Д´)ﾉ"
+  },
+  {
+    "category": "emotion",
+    "id": "blushing_1",
+    "tags": ["smile", "blushing"],
+    "text": "(❁´ω`❁) "
+  },
+  {
+    "category": "emotion",
+    "id": "blushing_2",
+    "tags": ["satisfied", "smirk", "blushing"],
+    "text": "(๑´ㅂ`๑)"
+  },
+  {
+    "category": "emotion",
+    "id": "blushing_3",
+    "tags": ["smile", "blushing"],
+    "text": "(❁´◡`❁)"
+  },
+  {
+    "category": "emotion",
+    "id": "blushing_4",
+    "tags": ["adorable", "shy", "blushing"],
+    "text": "(灬ºωº灬)"
+  },
+  {
+    "category": "emotion",
+    "id": "blushing_5",
+    "tags": ["shy", "embarrassed", "tere", "blushing"],
+    "text": "(//∇//)"
+  },
+  {
+    "category": "emotion",
+    "id": "blushing_6",
+    "tags": ["shy", "embarrassed", "tere", "blushing"],
+    "text": "(///ω///)"
+  },
+  {
+    "category": "emotion",
+    "id": "crying_1",
+    "tags": ["sad", "tearful", "crying"],
+    "text": "(╥﹏╥)"
+  },
+  {
+    "category": "emotion",
+    "id": "crying_2",
+    "tags": ["sad", "tearful", "crying"],
+    "text": "（ ＴДＴ）"
+  },
+  {
+    "category": "emotion",
+    "id": "crying_3",
+    "tags": ["sad", "tearful", "crying"],
+    "text": "(٭°̧̧̧ω°̧̧̧٭)"
+  },
+  {
+    "category": "emotion",
+    "id": "confident_glow_1",
+    "tags": ["happy", "confident_glow", "joyful"],
+    "text": "( •̀ ω •́ )✧"
+  },
+  {
+    "category": "emotion",
+    "id": "exhausted_1",
+    "tags": ["tired", "died", "exhausted"],
+    "text": "_(´ཀ`」 ∠)_"
+  },
+  {
+    "category": "emotion",
+    "id": "encourage_1",
+    "tags": ["cheering", "fighting", "determined", "encourage"],
+    "text": "(๑•̀ㅂ•́)و"
+  },
+  {
+    "category": "emotion",
+    "id": "encourage_2",
+    "tags": ["cheering", "fighting", "determined", "encourage"],
+    "text": "(ง๑ •̀_•́)ง"
+  },
+  {
+    "category": "emotion",
+    "id": "encourage_3",
+    "tags": ["cheering", "fighting", "determined", "encourage"],
+    "text": "(๑˃̵ᴗ˂̵)و"
+  },
+  {
+    "category": "emotion",
+    "id": "encourage_4",
+    "tags": ["cheering", "fighting", "encourage"],
+    "text": "৻( •̀ ᗜ •́ ৻)"
+  },
+  {
+    "category": "emotion",
+    "id": "happy_1",
+    "tags": ["music", "happy", "joyful"],
+    "text": "((ヽ(๑╹◡╹๑)ﾉ))♬"
+  },
+  {
+    "category": "emotion",
+    "id": "judging_1",
+    "tags": ["angry", "stare", "judging", "rage"],
+    "text": "ಠ_ಠ"
+  },
+  {
+    "category": "emotion",
+    "id": "naughty_1",
+    "tags": ["playful", "mischievous", "naughty"],
+    "text": "٩(◦`꒳´◦)۶"
+  },
+  {
+    "category": "emotion",
+    "id": "naughty_2",
+    "tags": ["playful", "mischievous", "naughty"],
+    "text": "o(｀ω´ )o"
+  },
+  {
+    "category": "emotion",
+    "id": "naughty_3",
+    "tags": ["playful", "mischievous", "evil", "naughty"],
+    "text": "ψ(｀∇´)ψ"
+  },
+  {
+    "category": "emotion",
+    "id": "nervous_1",
+    "tags": ["cry", "painful", "nervous"],
+    "text": "(>﹏<)"
+  },
+  {
+    "category": "emotion",
+    "id": "relaxed_dance_1",
+    "tags": ["happy", "chill", "nonbiri", "relaxed_dance", "joyful"],
+    "text": "(～￣▽￣)～"
+  },
+  {
+    "category": "emotion",
+    "id": "sleepy_1",
+    "tags": ["sleepy"],
+    "text": "(￣﹃￣)"
+  },
+  {
+    "category": "emotion",
+    "id": "sleepy_2",
+    "tags": ["sleepy"],
+    "text": "(_　_)。゜zｚＺ"
+  },
+  {
+    "category": "emotion",
+    "id": "sleepy_3",
+    "tags": ["sleepy"],
+    "text": "(￣o￣) . z Z"
+  },
+  {
+    "category": "emotion",
+    "id": "sleepy_4",
+    "tags": ["sleepy"],
+    "text": "(～﹃～)~zZ"
+  },
+  {
+    "category": "emotion",
+    "id": "sleepy_5",
+    "tags": ["drowsy", "tired", "sleepy"],
+    "text": "(っ- ‸ - ς)"
+  },
+  {
+    "category": "emotion",
+    "id": "shocked_1",
+    "tags": ["surprised", "panic", "shocked"],
+    "text": "Σ(っ °Д °;)っ"
+  },
+  {
+    "category": "emotion",
+    "id": "shocked_2",
+    "tags": ["surprised", "panic", "shocked"],
+    "text": "(＃°Д°)"
+  },
+  {
+    "category": "emotion",
+    "id": "shocked_3",
+    "tags": ["surprised", "amazed", "shocked"],
+    "text": "(˶ °ㅁ°)!!"
+  },
+  {
+    "category": "emotion",
+    "id": "snicker_1",
+    "tags": ["laugh", "snicker"],
+    "text": "(*´艸`*)"
+  },
+  {
+    "category": "emotion",
+    "id": "peaceful_1",
+    "tags": ["happy", "smile", "peaceful", "joyful"],
+    "text": "( ᵔ ⩊ ᵔ )"
+  },
+  {
+    "category": "emotion",
+    "id": "peaceful_2",
+    "tags": ["calm", "happy", "smile", "gentle", "peaceful", "joyful"],
+    "text": "( ´ ꒳ ` )"
+  },
+  {
+    "category": "emotion",
+    "id": "questioning_1",
+    "tags": ["confused", "questioning"],
+    "text": "(´･ω･`)?"
+  },
+  {
+    "category": "emotion",
+    "id": "questioning_2",
+    "tags": ["confused", "questioning"],
+    "text": "(⊙_⊙)？"
+  }
+]
