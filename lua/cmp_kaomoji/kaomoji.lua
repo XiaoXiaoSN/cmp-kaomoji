@@ -1,5 +1,5 @@
----@see: https://microsoft.github.io/language-server-protocol/specifications/specification-current/
----@see: https://github.com/hrsh7th/nvim-cmp/blob/v0.0.2/lua/cmp/types/lsp.lua#L265-L285
+---@see https://microsoft.github.io/language-server-protocol/specifications/specification-current/
+---@see https://github.com/hrsh7th/nvim-cmp/blob/v0.0.2/lua/cmp/types/lsp.lua#L265-L285
 local kaomoji_list = {
   -- Action
   {
@@ -197,6 +197,11 @@ local kaomoji_list = {
     _tags = { 'fight', 'determined', 'battle' },
     _category = 'action',
   },
+  {
+    word = ':wink_1:',
+    label = '(＜ゝω・)',
+    _category = 'emotion',
+  },
 
   -- Animal: bear
   {
@@ -228,6 +233,12 @@ local kaomoji_list = {
   {
     word = ':shy_bear_1:',
     label = 'ʕ￫ᴥ￩ʔ',
+    _category = 'animal',
+  },
+  {
+    word = ':sleepy_bear_1:',
+    label = 'ʕ´-ﻌก̀ʔᐝ',
+    _tags = { 'tired', 'sleepy' },
     _category = 'animal',
   },
   -- Animal: cat
@@ -446,6 +457,12 @@ local kaomoji_list = {
     word = ':encourage_4:',
     label = '৻( •̀ ᗜ •́ ৻)',
     _tags = { 'cheering', 'fighting' },
+    _category = 'emotion',
+  },
+  {
+    word = ':encourage_5:',
+    label = 'ଘ(੭*ˊᵕˋ)੭',
+    _tags = { 'cheering', 'fighting', 'angel' },
     _category = 'emotion',
   },
   {
