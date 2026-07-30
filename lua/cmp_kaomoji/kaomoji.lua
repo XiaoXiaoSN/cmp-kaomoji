@@ -241,6 +241,12 @@ local kaomoji_list = {
     _tags = { 'tired', 'sleepy' },
     _category = 'animal',
   },
+  {
+    word = ':crying_bear_1:',
+    label = 'ʕ o̴̶̷᷄  ̫ o̴̶̷̥᷅ ʔ',
+    _tags = { 'cry', 'sad', 'pleading', 'tears' },
+    _category = 'animal',
+  },
   -- Animal: cat
   {
     word = ':cute_cat_1:',
@@ -263,6 +269,18 @@ local kaomoji_list = {
     word = ':cat_3:',
     label = '^˶･֊･˶^੭',
     _tags = { 'greeting' },
+    _category = 'animal',
+  },
+  {
+    word = ':rolling_cat_1:',
+    label = '꜀(^. .^꜀ )꜆੭',
+    _tags = { 'relax', 'playful', 'roll', 'floor' },
+    _category = 'animal',
+  },
+  {
+    word = ':gentle_cat_1:',
+    label = 'ฅ(´꒳ `ฅ)ꪆ',
+    _tags = { 'paws', 'smile', 'gentle', 'happy' },
     _category = 'animal',
   },
   -- Animal: dog
@@ -555,6 +573,12 @@ local kaomoji_list = {
     word = ':snicker_1:',
     label = '(*´艸`*)',
     _tags = { 'laugh' },
+    _category = 'emotion',
+  },
+  {
+    word = ':smug_1:',
+    label = '/˃̵ ֊ ˂̵ マ Ⳋ',
+    _tags = { 'smug', 'laugh', 'playful', 'happy' },
     _category = 'emotion',
   },
   {
